@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #1c140d;
+    color: #f5f5f4;
+    user-select: none;
+  }
+}
+
+/* Custom scrollbar for inventory and queues */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #291e13;
+}
+::-webkit-scrollbar-thumb {
+  background: #78350f;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}
